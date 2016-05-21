@@ -210,9 +210,6 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "inrealm",
-    "spammer1",
-    "spammer2",
-    "spammer3",
     "stats",
     "plugins",
     "owners",
@@ -222,11 +219,10 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
-    "autoaddersudo",
     "id",
     "admin"
     },
-    sudo_users = {85831686},--Sudo users
+    sudo_users = {146393436},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[spammer and XY Bot 
