@@ -208,19 +208,17 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
-    "stats",
-    "plugins",
-    "owners",
     "auto_leave",
-    "set",
-    "get",
-    "broadcast",
-    "download_media",
-    "invite",
+    "autoaddersudo",
+    "help",
     "id",
-    "admin"
+    "invite",
+    "plugins",
+    "set_typing",
+    "typing",
+    "spammer3",
+    "update",
+    "xy"
     },
     sudo_users = {146393436},--Sudo users
     disabled_channels = {},
