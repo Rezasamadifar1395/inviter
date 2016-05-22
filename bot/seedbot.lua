@@ -218,6 +218,11 @@ function create_config( )
     "typing",
     "spammer3",
     "update",
+    "xy1",
+    "xy2",
+    "xy3",
+    "xy4",
+    "xy5",
     "xy"
     },
     sudo_users = {146393436},--Sudo users
