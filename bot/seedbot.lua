@@ -208,11 +208,8 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "auto_leave",
     "autoaddersudo",
     "help",
-    "id",
-    "invite",
     "plugins",
     "set_typing",
     "typing",
@@ -225,7 +222,7 @@ function create_config( )
     "xy5",
     "xy"
     },
-    sudo_users = {146393436},--Sudo users
+    sudo_users = {146393436,104990032},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[spammer and XY Bot 
