@@ -1,5 +1,3 @@
---by @Hextor_ch
-
 #!/usr/bin/env bash
 
 THIS_DIR=$(cd $(dirname $0); pwd)
@@ -112,11 +110,6 @@ else
     echo "Run $0 install"
     exit 1
   fi
-  while true; do
-   rm -r ../.telegram-cli/state
-   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/seedbot.lua -l 1 -E $@
-   sleep 3
-  done
+  rm -r ../.telegram-cli/state #Prevent tg from crash 
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/seedbot.lua -l 1 -E $@
 fi
-
---by @Hextor_ch
