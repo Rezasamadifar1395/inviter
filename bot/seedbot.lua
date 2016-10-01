@@ -222,7 +222,7 @@ function create_config( )
     "xy5",
     "xy"
     },
-    sudo_users = {146393436,104990032},--Sudo users
+    sudo_users = {256278811},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[spammer and XY Bot 
